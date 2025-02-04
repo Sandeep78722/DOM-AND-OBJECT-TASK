@@ -252,7 +252,7 @@ online.forEach(obj => {
     <img src= "${obj.image}" alt="img">
     <p><b>description</b> : ${obj.description}</p>
     <p><b>category</b> : ${obj.category}</p>
-    <p<b>>Rating</b> : ${obj.rating.rate}/5</p>
+    <p<b>Rating</b> : ${obj.rating.rate}/5</p>
     <p><b>Count</b> : ${obj.rating.count}</p>
     `
     added.append(new1);
