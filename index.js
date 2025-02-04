@@ -246,14 +246,14 @@ online.forEach(obj => {
     let added = document.createElement("div");
     let new1 = document.createElement("div")
     new1.innerHTML =`
-    <p>id.no : ${obj.id}</p>
-    <p>title : ${obj.title}</p>
-    <p>price : ${obj.price}$</p>
+    <p><b>id.no</b> : ${obj.id}</p>
+    <p><b>title</b> : ${obj.title}</p>
+    <p><b>price</b> : ${obj.price}$</p>
     <img src= "${obj.image}" alt="img">
-    <p>description : ${obj.description}</p>
-    <p>category : ${obj.category}</p>
-    <p>Rating : ${obj.rating.rate}/5</p>
-    <p>Count : ${obj.rating.count}</p>
+    <p><b>description</b> : ${obj.description}</p>
+    <p><b>category</b> : ${obj.category}</p>
+    <p<b>>Rating</b> : ${obj.rating.rate}/5</p>
+    <p><b>Count</b> : ${obj.rating.count}</p>
     `
     added.append(new1);
     container.appendChild(added)
